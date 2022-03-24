@@ -14,7 +14,7 @@ int sectionA()
 // TODO Use loops to generate the values of each row
 
 // TODO Use functions to calculate the future value and the future value with continuous compounding
-sectionABanner();
+// sectionABanner();
 
 // Section B
 
@@ -22,7 +22,7 @@ sectionABanner();
 
 // TODO use functions to calculate the periods to achieve the future value
 
-sectionBBanner();
+// sectionBBanner();
 
 // Section C
 
@@ -32,4 +32,4 @@ sectionBBanner();
 
 // TODO use functions to calculate the present value of each row
 
-sectionCBanner();
+// sectionCBanner();
