@@ -1,21 +1,23 @@
 #include <stdio.h>
-#include "Banner.h"
+#include <string.h>
 
 float payment, interestRate, i, currentValue, futureValueCont;
 double futureValue;
 int years;
 
-int sectionA()
+int main()
 {
     double payment = 500;
     double interestRate = 0.02/12.0;
-    years = 5;
+    years = 1;
     i = 1;
     sectionABanner();
-    while (i < years)
+    while (i <= 5)
     {
         futureValue = payment * (1 + interestRate) * 5;
-        printf("future value $ %.2f", futureValue);
+        printf("$%.2f   %.2f   %d      $%.2f\n", payment, interestRate, years, futureValue);
+        i++;
+        years++;
     }
 }
 // TODO Use loops to generate the values of each row
