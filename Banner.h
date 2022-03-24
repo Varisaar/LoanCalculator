@@ -5,6 +5,7 @@
 #include <string.h>
 #include <math.h>
 
+void openingBanner(void);
 void sectionABanner(void);
 void sectionBBanner(void);
 void sectionCBanner(void);

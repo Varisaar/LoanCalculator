@@ -1,5 +1,14 @@
 #include "Banner.h"
 
+void openingBanner()
+{
+    puts("================================================");
+    puts("|   Finance calculator                         |");
+    puts("|   CSC 130  Spring 2022                       |");
+    puts("|   Collin Bleier                              |");
+    puts("================================================");
+}
+
 void sectionABanner()
 {
     puts("");
